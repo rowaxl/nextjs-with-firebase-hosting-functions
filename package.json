@@ -2,6 +2,7 @@
   "name": "firebase-deploy",
   "version": "0.1.0",
   "private": true,
+  "main": "function.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,6 +10,8 @@
     "export": "next export"
   },
   "dependencies": {
+    "firebase-admin": "^9.5.0",
+    "firebase-functions": "^3.13.2",
     "next": "10.0.7",
     "react": "17.0.1",
     "react-dom": "17.0.1"
